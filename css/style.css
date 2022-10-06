@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(207, 170, 241);
+}
+
+h1 {
+    font-size: 5em;
+    color: black;
+}
+
+h2 {
+    color: rgb(23, 38, 248);
+    font-size: 2.2em;
+}
+
+div {
+    text-align: center;
+    margin-top: 250px;
+}
+
+button {
+    height: 3.3em;
+    width: 7.3em;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 2px 1px 1px 1px rgb(121, 98, 143);
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.start-btn {
+    background-color: green;
+}
+
+.start-btn:hover {
+    background-color: rgb(44, 192, 44);
+}
+
+.pause-btn {
+    background-color: rgb(109, 106, 106);
+}
+
+.pause-btn:hover {
+    background-color: rgb(161, 159, 159);
+}
+
+.stop-btn {
+    background-color: red;
+}
+
+.stop-btn:hover {
+    background-color: rgb(248, 96, 96);
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 4em;
+        color: black;
+    }
+    h2 {
+        color: rgb(23, 38, 248);
+        font-size: 1.9em;
+    }
+    div {
+        text-align: center;
+        margin-top: 210px;
+    }
+    button {
+        height: 3em;
+        width: 6em;
+        border: none;
+        color: white;
+        border-radius: 6px;
+        box-shadow: 2px 1px 1px 1px rgb(121, 98, 143);
+        margin-top: 3px;
+        margin-right: 5px;
+    }
+}
